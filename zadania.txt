@@ -1,0 +1,51 @@
+Zadanie 1.0
+--------------------------------------
+Napisać krótki program oparty na pliku LTypeEnumerated.cc, zawierający przykład użycia typu enum (scoped lub unscoped, z miesiącami)
+- nazwać program: ZadEnumExample.cc
+
+Zadanie 1.1
+--------------------------------------
+Napisać prosty program z jedną klasą. Wszystko zawarte w jednym pliku: klasa oraz definicje funkcji. Definicje funkcji mogą być w klasie lub poza nią. Klasa oparta o przykład: KviCar.cc
+- nazwać program: ZadClassExample.cc
+
+Zadanie 1.2
+--------------------------------------
+Napisać program (z zajęć) o treści zadanej w pliku LString.cc
+- nazwać program: ZadStringExample.cc
+
+
+
+Zadanie 2.2 (przeciążanie funkcji)
+--------------------------------------
+Napisz program który przeciążenia funkcję do obliczania pola: pole(...).
+Napisz funkcję pole, która będzie przeciążona dla:
+- kwadratu (przyjmuje długość boku),
+- prostokąta (przyjmuje długości dwóch boków),
+- koła (przyjmuje promień).
+nazwa: ZadPrzeciazaniePole.cc
+
+
+Zadanie 2.3 (przeciążanie funkcji)
+--------------------------------------
+Napisz program który przeciąża funkcję do dodawania różnych typów danych.
+Zaimplementuj funcję 'dodaj'
+- dodawanie dwóch liczb całkowitych,
+- dodawanie dwóch liczb zmiennoprzecinkowych,
+- konkatenację dwóch napisów (std::string).
+Nazwa: ZadPrzeciazanieDodaj.cc
+
+
+Zadanie 2.4 (przeciążanie operatora +)
+--------------------------------------
+Przeciążenie operatora + dla klasy Punkt
+Stwórz klasę Punkt przechowującą współrzędne (x, y). Przeciąż operator +, tak aby można było dodawać do siebie dwa obiekty klasy Punkt.
+Nazwa: ZadPrzeciazaniePlus.cc
+
+
+Zadanie 2.5 (przeciążenie potęgowanie)
+--------------------------------------
+Napisz program z funkcją do obliczania wartości potęgi (przeciążenie dla różnych typów)
+Napisz funkcję potega, która podnosi liczbę do potęgi, obsługując:
+- liczby całkowite,
+- liczby zmiennoprzecinkowe.
+Nazwa: LPrzeciazaniePotega.cc
