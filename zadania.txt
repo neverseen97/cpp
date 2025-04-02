@@ -35,11 +35,7 @@ Zaimplementuj funcję 'dodaj'
 Nazwa: ZadPrzeciazanieDodaj.cc
 
 
-Zadanie 2.4 (przeciążanie operatora +)
---------------------------------------
-Przeciążenie operatora + dla klasy Punkt
-Stwórz klasę Punkt przechowującą współrzędne (x, y). Przeciąż operator +, tak aby można było dodawać do siebie dwa obiekty klasy Punkt.
-Nazwa: ZadPrzeciazaniePlus.cc
+
 
 
 Zadanie 2.5 (przeciążenie potęgowanie)
