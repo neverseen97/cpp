@@ -25,8 +25,8 @@ double pole(double r, bool isCircle)
 
 int main()
 {
-    std::cout << "pole kwadratu o boku 4" << pole(4) << std::endl;
-    std::cout << "pole prostokata o bokach 4 i 5" << pole(4, 5) << std::endl;
-    std::cout << "pole kola o promieniu 4" << pole(4, true) << std::endl;
+    std::cout << "pole kwadratu o boku 4: " << pole(4.0) << std::endl;
+    std::cout << "pole prostokata o bokach 4 i 5: " << pole(4.0 , 5.0) << std::endl;
+    std::cout << "pole kola o promieniu 4: " << pole(4, true) << std::endl;
     return 0;
 }
