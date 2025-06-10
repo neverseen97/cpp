@@ -1,3 +1,18 @@
+Programy umieszczamy na swoim githubie w katalogu: kcppZadania
+Zwrócić uwagę na nazwy programów i katalogu
+------------------------------------------------------------------------------------------
+repozytorium: https://github.com/IdentyfikatorUzytkownika/NazwaRepozytorium/kcppZadania
+------------------------------------------------------------------------------------------
+
+
+
+
+
+------------------------------------------------------------------------------------------
+  1. Funkcja main
+------------------------------------------------------------------------------------------
+
+
 Zadanie 1.0
 --------------------------------------
 Napisać krótki program oparty na pliku LTypeEnumerated.cc, zawierający przykład użycia typu enum (scoped lub unscoped, z miesiącami)
@@ -13,6 +28,28 @@ Zadanie 1.2
 Napisać program (z zajęć) o treści zadanej w pliku LString.cc
 - nazwać program: ZadStringExample.cc
 
+Zadanie 1.3
+--------------------------------------
+Napisać program który zawiera:
+- funkcję main
+- 5 innych funkcji, z czego dwie zadeklarowane jako: extern "C"
+- dodatkowo do wykonania w późniejszej cześci kursu: wywołując program decydujemy, które z funkcji mają zostać wykonane przez podanie tego w liście argumentów przekazanych do funkcji main
+- nazwać program: ZadMainExample.cc 
+
+
+------------------------------------------------------------------------------------------
+  2. Zwracanie przez funkcje
+------------------------------------------------------------------------------------------
+
+
+Zadanie 2.1
+--------------------------------------
+Zadanie: Napisać program z czterema funkcjami z których każda zwraca inaczej:
+1. Przez wartość
+2. Przez referencje
+3. Przez wskaźnik
+4. Tablice (proszę się zastanowić o co tak naprawę chodzi)
+- nazwać program: ZadZwracanie.cc
 
 
 Zadanie 2.2 (przeciążanie funkcji)
@@ -35,7 +72,11 @@ Zaimplementuj funcję 'dodaj'
 Nazwa: ZadPrzeciazanieDodaj.cc
 
 
-
+Zadanie 2.4 (przeciążanie operatora +)
+--------------------------------------
+Przeciążenie operatora + dla klasy Punkt
+Stwórz klasę Punkt przechowującą współrzędne (x, y). Przeciąż operator +, tak aby można było dodawać do siebie dwa obiekty klasy Punkt.
+Nazwa: ZadPrzeciazaniePlus.cc
 
 
 Zadanie 2.5 (przeciążenie potęgowanie)
@@ -45,3 +86,483 @@ Napisz funkcję potega, która podnosi liczbę do potęgi, obsługując:
 - liczby całkowite,
 - liczby zmiennoprzecinkowe.
 Nazwa: LPrzeciazaniePotega.cc
+
+
+Zadanie 2.6 (z gwiazdką == dla chętnych)
+--------------------------------------
+Napisz program przekazujący tablice z zachowaniem rozmiaru
+Czy się da?
+Jeśli tak to proszę wykonać zadanie:
+- nazwać program: ZadPrzekazywanieTablic.cc
+Jeśli się nie da to proszę wykonać zadanie:
+- zdefiniować ogólną funkcję w której nie jest na sztywno ustawiony rozmiar tablicy, która przekazujemy:
+- nazwać program: ZadPrzekazywanieTablicZpodaniemRozmiaru.cc
+
+
+Zadanie 2.7 (z gwiazdką == dla chętnych)
+--------------------------------------
+Napisz program przekazujący kopię tablicy. (Czy da się przekazać kopię?)
+- nazwać program: ZadPrzekazywanieTablicKopia.cc
+
+
+
+------------------------------------------------------------------------------------------
+   3. Arytmetyka wskaźników
+------------------------------------------------------------------------------------------
+
+Zadanie 3.1
+-------------------------------------
+Napisz program do zamiana miejscami dwóch liczb za pomocą wskaźników
+Napisz funkcję zamien(int* a, int* b), która zamienia miejscami wartości przechowywane pod adresami a i b.
+Nazwa: ZadArytmetykaWskaznikowZamiana.cc
+
+
+Zadanie 3.2
+-------------------------------------
+Napisz program do sumowania elementów tablicy za pomocą wskaźników
+Stwórz funkcję suma, która przyjmuje wskaźnik do tablicy liczb całkowitych oraz jej rozmiar, a następnie zwraca sumę jej elementów.
+Nazwa: ZadArytmetykaWskaznikowSuma.cc
+
+
+Zadanie 3.3
+-------------------------------------
+Napisz program znajdujący największy element w tablicy przy użyciu wskaźników
+Napisz funkcję maxElement, która przyjmuje wskaźnik na tablicę liczb oraz jej rozmiar i zwraca wskaźnik do największego elementu.
+Nazwa: ZadArytmetykaWskaznikowZnajdowanie.cc
+
+
+Zadanie 3.4
+-------------------------------------
+Napisz program do przesunięcie elementów tablicy o jedno miejsce w prawo
+Napisz funkcję przesun, która przesuwa wszystkie elementy tablicy o jedno miejsce w prawo (ostatni element przechodzi na początek), wykorzystując wskaźniki.
+Nazwa: ZadArytmetykaWskaznikowPrzesuniecie.cc
+
+
+Zadanie 3.5
+-------------------------------------
+Napisz program: Różnica między dwoma wskaźnikami
+Stwórz program, który definiuje tablicę 10 liczb całkowitych, a następnie oblicza różnicę między dwoma wskaźnikami wskazującymi na różne elementy tej tablicy.
+Nazwa: ZadArytmetykaWskaznikowRoznica.cc
+
+
+Zadanie 3.6
+-------------------------------------
+Napisz program do kopiowanie tablicy przy użyciu wskaźników.
+Napisz funkcję kopiujTablice, która kopiuje jedną tablicę do drugiej, korzystając wyłącznie ze wskaźników.
+Nazwa: ZadArytmetykaWskaznikowKopiowanie.cc
+
+
+Zadanie 3.7 (LArytmetykaWskaznikowZmienne.cc)
+-------------------------------------
+Kierunek adresowania pamięci 
+- wyjaśnić w komentarzu do programu podającego przykład:
+- wypisywanie adresów deklarowanych zmiennych
+- nazwać program: ZadAdresowaniePamieci.cc
+
+
+Zadanie 3.8 (LArytmetykaWskaznikowTablice.cc)
+-------------------------------------
+Operacje na tablicy przy użyciu wskaźników
+Napisz program, który:
+- Zadeklaruje statyczną tablicę 10 liczb całkowitych i wypełni ją wartościami od 1 do 10.
+- Używając wskaźników, obliczy i wyświetli sumę elementów tablicy.
+- Znajdzie i wyświetli maksymalny element w tablicy używając arytmetyki wskaźników.
+- Odwróci kolejność elementów w tablicy używając wyłącznie wskaźników (bez użycia indeksów []).
+Nazwać program: ZadArytmetykaWskaznikowTabliceA.cc
+
+
+Zadanie 3.9 (LArytmetykaWskaznikowTablice.cc)
+-------------------------------------
+Operacje na dwóch tablicach z użyciem wskaźników
+Napisz program, który:
+- Zadeklaruje dwie tablice liczb zmiennoprzecinkowych o rozmiarze 5.
+- Wypełni pierwszą tablicę wartościami podanymi przez użytkownika, a drugą tablicę wartościami pierwszej tablicy pomnożonymi przez 2 (używając wyłącznie wskaźników).
+- Stworzy trzecią tablicę, która będzie zawierała sumy odpowiadających sobie elementów z dwóch pierwszych tablic (używając arytmetyki wskaźników).
+- Wyświetli zawartość wszystkich trzech tablic, używając wskaźników do iteracji po elementach.
+Nazwać program: ZadArytmetykaWskaznikowTabliceB.cc
+
+
+Zadanie 3.10 (LArytmetykaWskaznikowTablice.cc)
+-------------------------------------
+Pokazać w jakiej kolejności jest adresowana tablica dwuwymiarowa (Tab[3][3]).
+Wypisać adresy poszczególnych elementów.
+- nazwać program: ZadArytmetykaWskaznikowTablica2D.cc
+
+
+Zadanie 3.11 (LArytmetykaWskaznikow.cc)
+-------------------------------------
+Co robią poniższe operacje? Napisać program który pokazuje ich działanie.
+1. Funkcja1()
+p++;
+++p;
+++*p;
+++(*p);
+++*(p);
+*p++;
+(*p)++;
+*(p)++;
+*++p;
+*(++p);
+
+oraz (Funkcja2()) w analogii do LArytmetykaWzkaznikowZmienne.cc aby wypisywał na ekran:
+
+1.  A, B, C: 0  0   0
+2.  A, B, C: 0  10  0
+3.  A, B, C: 0  10  20
+4.  A, B, C: 0  30  20
+5.  A, B, C: 40 30  20
+6.  A, B, C: 40 50  20
+7.  A, B, C: 40 50  60
+8.  A, B, C: 40 70  60
+9.  A, B, C: 80 70  60
+10. A, B, C: 80 90  60
+
+przy początkowych wartościach zmiennych: int a = 0, b = 0, c = 0;
+- nazwać program: ZadArytmetykaWskaznikow.cc
+
+
+Zadanie 3.12 (LOperatoryPrzypisania.cc)
+-------------------------------------
+Napisać program z przykładami:
+(1) operatorow arytmetycznych i (2) operatorow przypisania
+(1) i (2) jako osobne funkcje: (1) OperatoryArytmetyczne (2) OperatoryPrzypisania
+- nazwać program: ZadOperatoryPrzypisania.cc
+
+
+
+Zadanie 3.13 (Nie trzeba, bo jest zrobione: LOperatoryPriorytet.cc)
+--------------------------------------
+Napisać program z "Priorytety operatorów" (kcpp02::18) - na zajeciach
+- nazwać program: ZadPriorytetyOperatorow.cc
+
+
+Zadanie 3.14 (Nie trzeba, ale proszę zajrzeć do LPrzeliczenieDec2Bin[A|B].cc)
+--------------------------------------
+Napisać program przeliczający
+- liczby binarne na dziesiętne (nazwać: ZadBin2Dec.cc)
+- liczby dziesiętne na binarne (nazwać: ZadDec2Bin.cc)
+
+  Przykłady
+  (github) LPrzeliczanieDec2BinA.cc
+  (github) LPrzeliczanieDec2BinB.cc
+
+
+Zadanie 3.15 (LBitoweOperatoryLogiczneB.c i ..czneC.cc)
+-------------------------------------
+Proszę napisać samodziely program który jako argument będzie przyjmował tablice 8
+elementową, gdzie na poszczególnych pozycjach tablicy będzie 0 lub 1. Program będzie
+zwracał liczbę, która w formie binarnej będzie miała ustawione 1 na pozycjach odpowiadających
+pozycjom 1 w tablicy. Wystarczy zmodyfikować program LBitoweOperatoryLogiczneC.cc
+- nazwać program: LBitoweOperatoryLogiczneSingleVariable.cc
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------
+  4. Operacje wejścia/wyjścia 
+------------------------------------------------------------------------------------------
+
+Zadanie 4.0
+--------------------------------------
+Napisz program z przykładem zastosowania klasy stringstream z biblioteki sstream
+- nazwać program LStringStream.cc
+
+
+Zadanie 4.1
+--------------------------------------
+Napisz program z przykładami manipulacji strumieniem cout:
+- setw, setprecision, setfill, fixed, scientific, hex, dec... etc (patrz plik kcpp02.pdf)
+- nazwać program LManipulacjaStrumieniemCout.cc
+
+  Spraw aby na ekran wypisało to co jest pomiedzy liniami ze znakami =:
+  ==================================================
+  Wynika naszego działania: x.xxxxx jest niepoprawny ale:
+     output:   xx.xxx    T:  x.xxx 
+     output1:   x.xxxx   T: xx.xxxxx
+     output2:   x.xxxx   T: xx.xxxxxx
+     ---------------------------------
+     average:  xx.xxxx   T: xx.xxxxxx
+  ==================================================
+  - x.xxxx są wynikami jakiś działań, a nie sztucznie wstawionymi liczbami
+  - ustawienie liczb/wypisanie/sformatowanie wykonać używając manipulatorow strumieniem (setw, setprecision, setfill etc), zamiast " " czy \t
+
+
+Zadanie 4.2
+--------------------------------------
+Napisz program pokazujący funkcjonalność:
+- wypisywania na ekran,
+- +zapisywanie do strumienia błędów
+//- zapisywania do pliku,
+//- odczytywania z pliku,
+- nazwać program: ZadCinCoutFile.cc
+
+
+Zadanie 4.3
+--------------------------------------
+Napisz program:
+- pokazujący wykonanie tych samych operacji w c i c++ (kcpp02::34)
+- nazwać program: ZadCandCPP.cc
+
+
+Zadanie 4.4
+--------------------------------------
+Napisz program, który wyświetli tabelę produktów w następującym formacie:
+
+| Nazwa          | Cena    | Ilosc |
+|----------------|---------|-------|
+| Chleb          |   4.99  |    5  |
+| Mleko          |   3.20  |   10  |
+| Jajka (10 szt) |   8.50  |    3  |
+
+- Użyj manipulatorów setw, left i right do wyrównania kolumn
+- Ceny wyświetl z dokładnością do 2 miejsc po przecinku
+- Szerokość kolumn: Nazwa (15 znaków), Cena (8 znaków), Ilosc (7 znaków)
+- nazwij program: ZadTabelaFormat.cc
+
+
+Zadanie 4.5
+--------------------------------------
+Napisz program, który wyświetli tabelę konwersji temperatur z Celsjusza na Fahrenheita dla wartości od -10 do 10 stopni C (co 5 stopni) w formacie:
+
+Celsjusz   Fahrenheit
+-------    ---------
+  -10        14.00
+   -5        23.00
+    0        32.00
+    5        41.00
+   10        50.00
+
+- Użyj fixed i setprecision dla temperatur w Fahrenheitach
+- Liczby wyświetl z wiodącymi spacjami (dodatnie) lub minusem (ujemne)
+- Wyrównaj liczby do prawej w kolumnach
+- nazwij program: ZadTemperaturaFormat.cc
+
+
+Zadanie 4.6
+--------------------------------------
+Napisz program, który wyświetli stałe matematyczne w trzech różnych formatach:
+
+Stała          Wartość (domyślnie)    Notacja stała      Notacja naukowa
+--------       -----------------      -------------      --------------
+Pi             3.14159                3.141593           3.141593e+00
+e              2.71828                2.718282           2.718282e+00
+Złoty podział  1.61803                1.618034           1.618034e+00
+
+- Użyj scientific i fixed do zmiany notacji
+- Dla każdej notacji zastosuj precyzję 6 cyfr
+- Szerokość kolumn: nazwa stałej (15 znaków), wartości (20 znaków)
+- Nagłówki kolumn wyrównaj do środka (używając spacji)
+- nazwij program: ZadDaneNaukoweFormat.cc
+
+
+Zadanie 4.7
+--------------------------------------
+Napisz program sprawdzający czy liczba jest parzysta/nieparzysta:
+- trzy funkcje:
+  (a) w jednej sprawdzamy z wykorzystaniem operacji bitowych (&);
+  (b) w drugiej inaczej (eg. modulo)
+  (c) w trzeciej sprawdzenie z użyciem operatora warunkowego zamiast if (lub jako warunek w if: TRUE || FALSE; (... ? 0 : 1))
+  - w kodzie funkcji (a) proszę rozpisać jako komentarz przykładowe sprawdzenie
+- nazwać program: ZadParzysta.cc
+
+
+Zadanie 4.8 
+--------------------------------------
+Napisz program z użyciem 'switch' wybierajacy do wykonania jedną z trzech funkcji z zadania ZadParzysta.cc:
+- nazwać program: ZadParzystaCase.cc (kopia ZadParzyste do ZadParzysteCase+switch, lub pominięcie ZadParzyste i umieszczenie wszystkiego w ZadParzystaCase)
+
+
+Zadanie 4.9
+--------------------------------------
+Napisz program pokazujący działanie instrukcji (każda jako osobna funkcja; trzy funkcje od a do c):
+(a) while    (pokazujące while z inkrementacją: i++, ++i)
+(b) do-while (pokazujące do-while z inkrementacją: i++, ++i)
+(c) for
+- wykorzystaj: break, continue, return
+- nazwać program: ZadPetle.cc
+
+
+Zadanie 4.10
+--------------------------------------
+Napisz program wykorzystujący instrukcje 'switch' gdzie:
+- zamiast pojedynczego znaku będzie sprawdzane całe słowo (czy da się to zrobić bezpośrednio?)
+- program może być uszczegółowieniem/modyfikacją (zrobić kopie pliku i zmienić kopie) tego co jest w ZadParzysteCase.cc
+- nazwać program: ZadSwitch.cc
+
+
+Zadanie 4.11
+-------------------------------------
+Zmodyfikuj program LFor.cc, aby wypisywał liczby nieparzyste zamiast parzystych.
+Dodaj kolejną pętlę, która wypisze liczby podzielne przez 7.
+Nazwij program: ZadStudent/ZadForA.cc
+
+
+Zadanie 4.12
+-------------------------------------
+Dodaj do programu ZadStudent/LSilnia.cc sprawdzanie, czy podana liczba jest większa lub równa zero (silnia jest zdefiniowana tylko dla liczb nieujemnych).
+Zmodyfikuj program, aby obliczał sumę silni od 1 do n.
+
+
+Zadanie 4.13
+-------------------------------------
+Zmodyfikuj program ZadStudent/LKsztalt.cc, aby rysował trójkąt równoramienny.
+Dodaj pętlę, która narysuje "piramidę" z liczb (np. 1, 2 2, 3 3 3).
+
+
+Zadanie 4.14
+------------------------------------
+Zmodyfikuj program ZadStudent/LWhileA.cc, aby zliczał również liczbę wprowadzonych wartości.
+Dodaj sprawdzanie, czy podana liczba jest dodatnia – jeśli nie, program ma wypisać komunikat.
+
+
+Zadanie 4.15
+------------------------------------
+W programie ZadStudent/LGra.cc ogranicz liczbę prób do 10. Jeśli gracz nie zgadnie, program ma wyświetlić prawidłową liczbę.
+Dodaj poziomy trudności (np. zakres 1-50 dla łatwego, 1-200 dla trudnego).
+
+
+Zadanie 4.16
+------------------------------------
+Napisz program ZadStudent.cc, do zrobienia prostej bazy studentów z wykorzystaniem std:vector, z fuknjonalnością:
+- Dodaj studenta
+- Usun studenta
+- Wyswietl liste
+- Sortuj liste (alfabetycznie)
+- Sprawdz, czy student istnieje
+Spróbj napisać program sam. Jeśli się uda ti super, jeśli nie to przykład jest w ZadStudent/LVectorStudent.cc.
+Jeśli nie napisałeś sam programu (jeśli napisałeś) zmodyfikuj program, aby przechowywał nie tylko imiona, ale także nazwiska i numery indeksów (użyj struct Student).
+Dodaj walidację danych (np. sprawdzanie, czy imię nie jest puste lub czy numer indeksu jest unikalny).
+
+
+Zadanie 4.11
+--------------------------------------
+Napisz program pokazujący zastosowanie dyrektywy preprocesora:
+  '#ifdef' (#else)
+  '#ifndef'
+oraz
+  '#define':
+  (a) użycie makra
+  (b) uzycie '#' i '##'
+  (a) i (b) stwórz także dla porównania bez dyrektywy preprocesora
+- nazwać program: ZadPreprocesor.cc
+
+
+
+
+------------------------------------------------------------------------------------------
+  5. Klasy
+------------------------------------------------------------------------------------------
+
+
+Zadanie 5.1
+--------------------------------------
+Napisz prosty program z klasą
+- metody deklarowane i definiowane w klasie
+- metody deklarowane w klasie, a definiowane poza klasą
+- zastosowanie 3 sekcji: public, private, protected
+- zmienne w każdej z sekcji
+- funkcje, które mają dostęp do zmiennych z sekcji protected i private
+- funkcje inline
+- nazwij program: ZadClass.cc
+
+
+Zadanie 5.2
+--------------------------------------
+Stwórz plik z działająca strukturą:
+- deklaracja,
+- definicja obiektów (w dowolny sposób):
+  - wywołanie,
+  - zmiana wartości,
+  - odczyt wartości,
+  // - czy można stworzyć konstruktor (inicjalizacja wartości poczatkowych - standard, lista inicjalizacyjna)
+- nazwij program: ZadStruct.cc
+
+
+Zadanie 5.3
+--------------------------------------
+Pokaż działanie uni (niebezpieczenstwa, bledy)
+- nazwij program: ZadUnia.cc
+
+
+Zadanie 5.4
+--------------------------------------
+Stwórz klase (program: ZadKlasaKonstruktor.cc) oraz structure (program: ZadStructKonstruktor.cc) z przykładami konstruktorów i 
+inicializacją zmiennych:
+- domyślny konstruktor,
+- domyślny destruktor,
+- konstruktor z niepustą liczbą zmiennych argumentów
+- inicjalizacja zmiennych:
+  - 'standardowa',
+  - inicjalizacyjna za pomocą listy inicjalizacyjnej
+
+
+Zadanie 5.5
+--------------------------------------
+Sprawdzić działanie przyjaźni klas:
+- Klasa B zaprzyjaźniona z klasą A ma ma dostęp do składników prywatnych
+- Czy klasa A w tym samym momencie może być także zaprzyjaźniona z klasą B?
+    
+Friendship is not mutual. If class A is a friend of B, then B doesn’t become a friend of A automatically.
+https://www.geeksforgeeks.org/friend-class-function-cpp/
+
+
+
+
+-----> Powyższe do wykonania po zajęciach 2025.05.28
+
+
+
+Zadanie 5.6
+--------------------------------------
+Bazując na pliku LClassMetodyAbstrakcyjne.cc stwórz program który oblicza:
+- obwód, pole powierzchni
+dla:
+- kwadrat, trójkąt, prostokąt, koło (jako klasy dziedziczące po klasie abstrakcyjnej Figura),
+oraz funkcja Dystans (dodatkowo w klasie Koło):
+  Jeśli rząd podaje, że na każdego obywatela w sklepie (kościele etc) przypada X metrów kwadratowych (argument przekazywany do funkcji)
+  to w jakiej odległości (promieniu - to ma funkcja Dystans zwracać) może znaleźć się następna osoba.
+Nazwij program: ZadMetodyAbstrakcyjne.cc 
+
+
+
+------------------------------------------------------------------------------------------
+  6. Podsumowanie zadań
+------------------------------------------------------------------------------------------
+
+********************************************************************************************
+- Stwórz katalog ZadKcppZaliczenie i w nim umieść zadanie 6.1 i w konsekwencji zadanie 7.1
+********************************************************************************************
+
+Zadanie 6.1
+--------------------------------------
+- Zaprojektuj klasę/klasy i umieść funkcje z 10 wybranych zadań z zakresu 1.1-5.6
+  jako metody danej klasy/klas
+- Deklaracja metod w ciele klasy, a definicja poza,
+- Definicje metod w osobnym pliku nagłówkowym
+- nazwij klasę nadrzędną: ZadKcpp (plik: ZadKcpp.cc)
+- używaj dyrektywy preprocesora #define w plikach nagłówkowych aby zapobiec powtórnemu umieszczaniu treści pliku nagłówkowego
+- wszystko w osobnym katalogu: ZadClassKcpp
+  - main.cc w ZadClassKcpp,
+  - pliki nagłówkowe (*.h) w katalogu: ZadClassKcpp/include,
+  - pliki źródłowe (*.cc) w katalogu: ZadClassKcpp/src
+- Program powinien zawierać interaktywne menu z możliwością wyboru zadania do wywołania 
+  - menu:
+   - sekcja
+   - numer zadania w sekcji i opis w kilu słowach co dana funkcja (zadanie) zawiera
+
+
+
+
+------------------------------------------------------------------------------------------
+  7. Kompilacja
+------------------------------------------------------------------------------------------
+
+
+Zadanie 7.1
+--------------------------------------
+- Stwórz Makefile (lub użyj cmake) do kompilacji programu (programów) z zadania 6.1
+
+
